@@ -1,0 +1,54 @@
+nav {
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: rgb(251,33,125);
+    border-radius: 2em;
+    padding: 1em;
+    font-family: 'Acme';
+}
+nav a {
+    padding-left: 5em;
+    color: rgb(251,33,125);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.row {
+    display: flex;
+}
+.left-column {
+    height: 40vh;
+    flex: 40%;
+}
+.right-column {
+    height: 40vh;
+    flex: 60%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#right-column-home {
+    background-image:url(Images/friends.png);
+}
+#right-column-about {
+    background-image:url(Images/fun.png);
+}
+#right-column-members {
+    background-image:url(Images/selfie.png);
+}
+.main-heading {
+    font-family: 'Acme';
+    font-size: 4em;
+    color: rgb(251,33,125);
+    padding-top: 1em
+}
+#content-area {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 6em;
+}
+#layout-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#password-area{
+    margin-top:5em;
+}
